@@ -1,0 +1,17 @@
+-string> em C ele usa asa vetores para colocar variaso caracteres, ex:
+char nome [50];
+
+sao vetores de caracteres,
+
+usa o %s para mostrar uma string, 
+
+
+fgets - e usando para ler entradas de stings, ja que o scanf corta a frase quando ha um espaco
+ex:
+
+char nome[50];
+fgets (nime, 50,stdin);
+
+para tirar o \n automatico do fgets:
+
+nome[strlen(nome)-1]=\0
